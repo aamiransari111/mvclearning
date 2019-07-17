@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="CMCS_TestModelStoreContainer" CdmEntityContainer="CMCS_TestEntities">
+    <EntitySetMapping Name="tblPages">
+      <EntityTypeMapping TypeName="CMCS_TestModel.tblPage">
+        <MappingFragment StoreEntitySet="tblPage">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="PageName" ColumnName="PageName" />
+          <ScalarProperty Name="Url" ColumnName="Url" />
+          <ScalarProperty Name="DisplayOrder" ColumnName="DisplayOrder" />
+          <ScalarProperty Name="ParentId" ColumnName="ParentId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
